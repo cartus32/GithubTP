@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'BD_TPGithub',
         'USER': 'root',
-        'PASSWORD': '4371',
+        'PASSWORD': '22angel.la',
         'HOST': 'localhost',
         'PORT': '3306',
     }
