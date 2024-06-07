@@ -55,7 +55,7 @@ ROOT_URLCONF = 'TPGithub.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR/"templates"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -78,9 +78,9 @@ DATABASES = {
 
     'default': { 
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'BD_TPGithub',
+        'NAME': 'prueba1',
         'USER': 'root',
-        'PASSWORD': 'simon17699',
+        'PASSWORD': '4371',
         'HOST': 'localhost',
         'PORT': '3306',
     }
